@@ -1,0 +1,44 @@
+.container {
+  max-width: 1400px;
+
+}
+
+
+.header {
+  background: url(../images/payments-banner-graphic.png) no-repeat 0 0 transparent;
+  height: 550px;
+  text-align: center;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
+.logo {
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.header h2 {
+font-family: 'PT Serif', serif;
+}
+
+
+.create-account {
+  color: ##7F77AE;
+}
