@@ -1,44 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+}
 .container {
   max-width: 1400px;
-
 }
-
-
 .header {
   background: url(../images/payments-banner-graphic.png) no-repeat 0 0 transparent;
   height: 550px;
-  text-align: center;
   color: #fff;
 }
-
 .header a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-
-
-
-.logo {
+.top-header {
+  display: flex;
+  justify-content: space-between;
 }
-
+.logo {
+  padding: 0 0 0 10px;
+}
+.logo p {
+  margin-bottom: 0;
+}
+.navigation ul {
+  padding: 0 20px 0 0;
+}
 .navigation li {
   display: inline-block;
+  padding-left: 15px;
 }
-
-
-.header h1 {
+.navigation a {
+  font-size: .8rem;
+}
+.title {
+  text-align: center;
+}
+.title h1 {
   margin: 0;
   font-size: 2.5rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+  margin: 150px 0 0 0;
 }
-
-.header h2 {
-font-family: 'PT Serif', serif;
+.title h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: normal;
 }
-
-
 .create-account {
-  color: ##7F77AE;
+  color: #7F77AE;
+  padding: 10px 60px;
+  text-transform: uppercase;
 }
