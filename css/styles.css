@@ -28,9 +28,14 @@ img {
 }
 .logo {
   padding: 0 0 0 10px;
+  display: flex;
+}
+.logo img {
+  margin-right: 5px;
 }
 .logo p {
-  margin-bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .navigation ul {
   padding: 0 20px 0 0;
@@ -59,6 +64,8 @@ img {
   color: #7F77AE;
   padding: 10px 60px;
   text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
 }
 .quality {
   display: flex;
@@ -120,6 +127,7 @@ img {
 .services img {
   width: 80%;
   border-radius: 20px;
+  margin-bottom: -20px;
 }
 .column {
   width: 50%;
@@ -137,44 +145,66 @@ img {
   background-color: #665E95;
   padding: 50px 0 0 0;
 }
-
-.annonce {
+.ready-to-freelance {
   text-align: center;
-  padding: 20px 0;
+  margin: 50px 0;
+  font-size: 1.2rem;
 }
-
+.ready-to-freelance p {
+  margin: 0;
+}
+.ready-to-freelance button {
+  background-color: #00BA8A;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
 footer {
   background-color: #282A2D;
-  padding-top:50px;
+  padding-top: 50px;
 }
-
 .footer-top {
   display: flex;
   justify-content: space-around;
 }
-
+.footer-top h3 {
+  font-weight: normal;
+}
 .footer-top ul {
   margin: 0;
   padding: 0;
 }
-
 .footer-top li {
   list-style-type: none;
-  margin:10px 0;
+  margin: 10px 0;
+  font-size: .9rem;
 }
-
 .footer-top a {
   color: #929E8B;
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.contact address {
+  font-size: .9rem;
+  font-style: normal;
+}
+.contact i {
+  padding: 5px;
+}
 .footer-bottom {
   text-align: center;
   font-size: .7rem;
-  margin-top:50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-
+.copyright {
+  width: 35%;
+  margin-right: 10px;
+}
 .footer-bottom a {
   color: #eee;
   text-decoration: none;

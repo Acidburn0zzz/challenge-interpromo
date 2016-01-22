@@ -15,9 +15,8 @@
 
       <div class="top-header">
         <div class="logo">
-          <p>
-            <a href="/"><img src="images/logo-icon-white.png" alt="Bonsai" width="30px"> Bonsai</a>
-          </p>
+          <p><a href="/"><img src="images/logo-icon-white.png" alt="Bonsai" width="30px"></a></p>
+          <p><a href="/">Bonsai</a></p>
         </div>
         <nav class="navigation">
           <ul>
@@ -109,7 +108,7 @@
       </div>
     </div>
 
-    <div class="annonce">
+    <div class="ready-to-freelance">
       <p>Ready to freelance like a pro?</p>
       <p>Sign up here &amp; get 5 <span>Free</span> invoices.</p>
       <button>Create an account</button>
@@ -137,11 +136,12 @@
 
         <div class="contact">
           <h3>Contact</h3>
-          <ul>
-            <li><a href="#">760 Market St. 5th Floor</a></li>
-            <li><a href="#">San Francisco, CA 94102</a></li>
-            <li><a href="#">Tedt</a></li>
-          </ul>
+          <address itemprop="contactPoints">
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">760 Market St., 5th Floor</span><br><br>
+            <span itemprop="addressLocality">San Francisco</span>, <span itemprop="postalCode">CA 94102</span></span><br>
+          </address>
+          <p><i class="icon icon-envelope"></i><i class="icon icon-twitter"></i><i class="icon icon-heart"></i></p>
         </div>
       </div>
 
@@ -150,12 +150,13 @@
         <div class="copyright">
           <p>&copy; 2016 Bonsai Inc. Bonsai is not a law firm, does not provide legal services or advice, and does not provide or participate in legal representation. <a href="">Legal</a> - <a href="">Credits</a></p>
         </div>
-        <div class="analitics">
+        <div class="analytics">
           <img src="images/badge_blue.png" alt="Mixpanel mobile Analytics">
         </div>
       </div>
     </footer>
   </div>
+  <script src="https://use.fonticons.com/63a11876.js"></script>
 </body>
 
 </html>
