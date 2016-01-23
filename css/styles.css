@@ -123,27 +123,31 @@ img {
 .services {
   display: flex;
   text-align: center;
+  border-bottom: 1px solid #eee;
 }
 .services img {
   width: 80%;
-  border-radius: 20px;
-  margin-bottom: -20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0 auto;
 }
 .column {
   width: 50%;
-  border-bottom: 1px solid #eee;
 }
 .service01, .service05 {
-  padding: 50px 20px 0 20px;
   background-color: #57D8F0;
-}
-.service02, .service03, .service06 {
-  text-align: left;
-  padding: 50px 120px 0 200px;
 }
 .service04 {
   background-color: #665E95;
-  padding: 50px 0 0 0;
+}
+.service02, .service03, .service06 {
+  text-align: left;
+  padding: 0 150px;
+  margin: auto 0;
+}
+.service01, .service04, .service05 {
+  padding-top: 80px;
+  display: flex;
 }
 .ready-to-freelance {
   text-align: center;
